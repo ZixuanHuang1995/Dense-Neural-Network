@@ -15,7 +15,7 @@ inputs = np.array([
     [1, 1]
 ])
 
-# 2. Output label (result of AND)
+# 2. output label (result of AND)
 outputs = np.array([[0], [0], [0], [1]])
 
 # 3. Weight initialization (2 inputs to 1 output)
@@ -23,7 +23,7 @@ np.random.seed(0)
 weights = np.random.rand(2, 1)
 bias = np.random.rand(1)
 
-# 4. Training the model
+# 4. training model
 learning_rate = 0.1
 epochs = 10000
 
